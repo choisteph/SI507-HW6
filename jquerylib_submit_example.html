@@ -11,6 +11,10 @@
     .good {
         color: blue;
     }
+    .hello{
+      color: blue;
+    }
+
 </style>
 <script type="text/javascript">
 $(document).ready(function(){
@@ -18,12 +22,15 @@ $(document).ready(function(){
         var regex = /^[a-zA-Z]+$/;
         var currentValue = $("#oneWord").val();
         if(regex.test(currentValue) == false){
-            $("#result").html('<p class="error">Not valid!</p>').show().fadeOut(10000);
+            $("#result").html('<p class="error">Not valid!</p>').show();
             // Preventing form submission
             event.preventDefault();
-        } else {
-            $("#result").html('<p class="good">Nice!</p>').show().fadeOut(10000);
         }
+        else if (currentValue ==="hello"){
+          $("#result").html('<p class="hello">Hello to you too!</p>').show().fadeOut(560000);
+        }
+        else{
+            $("#result").html('<p class="good">Nice!</p>').show().fadeOut(560000);}
     });
 });
 </script>
@@ -35,6 +42,6 @@ $(document).ready(function(){
         <input type="text" name="first-name" id="oneWord">
         <input type="submit" value="Submit">
         <div id="result"></div>
-    </form>    
+    </form>
 </body>
-</html>                            
+</html>
