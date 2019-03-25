@@ -115,15 +115,15 @@ So I think this is helping the program determine if the string fits the criteria
 
 * **What's different about the syntax of conditional statements in JavaScript, compared to Python?**
 
-JS uses if (conditional statement) {things to do};
+JS uses `if (conditional statement) {things to do};`
 
 (parentheses, curly brackets, and semicolons)
 
 Python uses indents.
 
-if conditional statement
+`if conditional statement
 
-	things to do
+(tab) things to do`
 
 
 * **What do you think the `10000` refers to in the code `.fadeOut(10000)`?**
