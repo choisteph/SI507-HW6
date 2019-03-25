@@ -97,7 +97,7 @@ ok!
 the CSS says to style things with the p class 'error' with red text color
 the CSS says to style things with the p class 'good' with blue text color
 
-jQuery returns each "<p>" element according to whether or not the input is valid or not
+jQuery returns each "    <p>    " element according to whether or not the input is valid or not
 
 * **What is this line `var regex = /^[a-zA-Z]+$/;` helping with? And if you googled something to figure that out, what did you google, and what, briefly, did you learn? (If you didn't need to google, you can leave that out, but explain briefly what that line is helping the program do, anyway.)**
 
