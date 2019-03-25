@@ -133,9 +133,8 @@ $(document).ready(function(){
 ```
 (added the closers to have this display properly)
 
-Looks like this is happening:
-Get document ready to do the function
-When the "form" item does the submit action, call the function
+When the document (html stuff) is done loading, do the function:
+When the "form" item does the submit event, run the function.
 
 * **Add some code to the `jquerylib_submit_example.html` file so that, if the input is valid and is specifically the text `hello`, rather than the visible output being `Nice!` in blue, the visible output should be `Hello to you too!`, also in blue, just like `Nice!` is.**
 	* *HINT:* You'll have to make some changes to the conditional statement, and possibly look up some JavaScript conditional syntax. You'll also need to look carefully at what generates visible output right now.
