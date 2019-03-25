@@ -121,9 +121,10 @@ JS uses `if (conditional statement) {things to do};`
 
 Python uses indents.
 
-`if conditional statement
-
-(tab) things to do`
+```python
+if conditional statement:
+	things to do
+```
 
 
 * **What do you think the `10000` refers to in the code `.fadeOut(10000)`?**
