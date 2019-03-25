@@ -19,6 +19,7 @@ scripts run when they are called in the HTML
 * **What functions in JavaScript seem to be similar in function to the `print` function in Python? (There are two.) Why might you use one and not the other? Explain briefly.**
 
 console.log will display something in the console on a browser
+
 alert will display something as a popup window on a browser
 
 console.log is good for tracking whether or not things have happened. a user won't see these messages unless they go looking for it in inspect element
@@ -28,6 +29,7 @@ alert is good for letting a user know immediately if something is happening
 * **What code would have to comment out to get rid of the pop-up box when you load the page? (Related to the last question.) Do that in the code file, and then, add code so that a text box will appear that contains the current date and time! *HINT:* Look through the rest of the code first...**
 
 get rid of the "Hello" in alert()
+
 in the alert, write new Date() instead
 
 (i commented this out because it was getting annoying to have this show up every time i tried to load the page)
@@ -54,6 +56,7 @@ for this page, get all the items with the ID "items" and replace the text associ
 * **Why are there a couple of gray boxes on the screen with a different colored border? How could you edit this code to make them a different color? Explain briefly. Then edit the code to make those boxes some shade of blue, of your choosing.**
 
 they're styled in the CSS according to their identity as a member of class (paragraph).
+
 going through and adjusting the background-color hex and border hex codes will change.
 
 * **Edit the code so that, if you highlight `McGill University` and copy it, you see the text `O Canada` near the bottom of the page. Briefly explain why you made the edits that you did -- how did you know/figure out what to do?**
@@ -95,6 +98,7 @@ ok!
 * **When you enter input that isn't valid, you see an error that is red. Why is the error in red? Why is the response for valid inputs blue?**
 
 the CSS says to style things with the p class 'error' with red text color
+
 the CSS says to style things with the p class 'good' with blue text color
 
 jQuery returns each `<p>` element according to whether or not the input is valid or not
@@ -112,10 +116,13 @@ So I think this is helping the program determine if the string fits the criteria
 * **What's different about the syntax of conditional statements in JavaScript, compared to Python?**
 
 JS uses if (conditional statement) {things to do};
-parentheses, curly brackets, and semicolons
+
+(parentheses, curly brackets, and semicolons)
 
 Python uses indents.
+
 if conditional statement
+
 	things to do
 
 
